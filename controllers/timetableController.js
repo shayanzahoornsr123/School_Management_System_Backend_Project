@@ -1,4 +1,4 @@
-const TimeTable = require("../models/TimeTable");
+const TimeTable = require("../models/Timetable");
 const User = require("../models/User");
 const cloudinary = require("../utils/cloudinary");
 
