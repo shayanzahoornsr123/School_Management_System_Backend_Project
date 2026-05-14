@@ -1,5 +1,5 @@
 const StudyMaterial = require("../models/StudyMaterial");
-const User = require("../models/User"); // ✅ Import User model
+const User = require("../models/User");
 const streamifier = require("streamifier");
 const cloudinary = require("../utils/cloudinary");
 const mongoose = require("mongoose");

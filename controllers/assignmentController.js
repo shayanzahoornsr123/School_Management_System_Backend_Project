@@ -38,7 +38,7 @@ exports.createAssignment = async (req, res) => {
     if (req.file) {
 
       // 🔥 Detect file type properly
-      let resourceType = "raw"; // default for pdf, docs
+      let resourceType = "raw";
 
       if (req.file.mimetype.startsWith("image")) {
         resourceType = "image";

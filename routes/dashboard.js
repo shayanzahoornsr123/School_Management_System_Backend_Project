@@ -9,6 +9,7 @@ const Attendance = require('../models/Attendance');
 const ExamResult = require('../models/ExamResult');
 const Fee = require('../models/Fee');
 
+
 router.get('/', verifyToken, async (req, res) => {
   const role = req.user.role;
   const userId = req.user.id;
